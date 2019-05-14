@@ -1,0 +1,386 @@
+.wrap{
+    width: 100%;
+    background-color: #e5e5e5;
+    overflow: hidden;
+}
+header .banner {
+    width: 100%;
+    position:relative;
+}
+header .banner img{
+    width: 100%;
+    display: block;
+}
+header .banner p{
+    background:rgba(0, 0, 0, 0.23);
+    font-weight: lighter;
+    width: 100%;
+    display: block;
+    padding-left: 0.2rem;
+    font-size: 0.3rem;
+    position:absolute;
+    bottom: 0;
+    color:#fff;
+}
+header .share{
+    background-color: #fff;
+    font-size: 0.28rem;
+    padding:0.2rem 0;
+}
+header .share .share-left{
+    width: 5.5rem;
+    padding-left: 0.2rem;
+    float: left;
+}
+header .share .share-left span{
+    color:#f0851a;
+    float: left;
+}
+header .share .share-left p{
+    float: left;
+    color:#ccc;
+    font-size: 0.16rem;
+    line-height: 0.38rem;
+}
+header .share .share-right{
+    width: 0.69rem;
+    float: left;
+}
+header .share .share-right a{
+    width: 0.69rem;
+    display: block;
+    background-image: url(../images/share1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 0.2rem;
+    background-size: 0.2rem;
+
+    height: 0.75rem;
+    border-left: 1px solid #ccc;
+}
+section{
+    width: 100%;
+}
+section .data{
+    width: 6.2rem;
+    margin:0 auto;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    padding-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    background-image: url(../images/next.png);
+    background-repeat: no-repeat;
+    background-position: 5.8rem center;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+}
+section .data h3{
+    font-size: 0.28rem;
+    line-height: 0.7rem;
+    padding-left: 0.2rem;
+}
+section .data span{
+    font-size: 0.2rem;
+    display: block;
+    width: 0.7rem;
+    float: left;
+    line-height: 0.28rem;
+    border:1px solid #ccc;
+    margin-left: 0.2rem;
+    text-align: center;
+}
+section .switch{
+    width: 100%;
+    margin-top: 0.2rem;
+    background-color: #fff;
+}
+section .switch a{
+    display: block;
+    width: 1.5rem;
+    text-align: center;
+    font-size: 0.25rem;
+    color:#000;
+    float: left;
+    line-height: 0.62rem;
+}
+section .switch li:first-child a{
+    color:#50bbdb;
+    border-bottom:1px solid #39a1c0 ;
+}
+section .switch li:nth-child(2) a{
+    padding:0 0.95rem;
+}
+section .section-content{
+    width: 100%;
+    background-color: #fff;
+}
+section .features .fearures-inner{
+    width: 5.78rem;
+    margin:0 auto;
+}
+section .features a,section .introduction >a,section .booking >a,section .leader >a,section .comments>a{
+    margin: 0.34rem 0;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.46rem;
+    display: block;
+    background-color: #f0f0f0;
+    color:#000;
+}
+.huise{
+    background-color: #d4d4d4;
+    height: 0.23rem;
+    width: 100%;
+}
+section .features p{
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+}
+section .features .fearures-inner img{
+    width: 100%;
+}
+section .introduction .introduction-inner{
+    width: 5.50rem;
+    margin:0 auto;
+}
+section .introduction{
+    margin-top: 0.2rem;
+}
+section .introduction{
+    background-image: url(../images/weizhi.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+    background-position: 0.1rem 0.9rem;
+}
+section .introduction .introduction-inner .intro-content h3{
+    width: 4.68rem;
+    font-size: 0.28rem;
+    color:#50bbdb;
+    line-height: 0.46rem;
+    border-bottom: 1px solid #50bbdb;
+}
+section .introduction .introduction-inner .intro-content >div{
+    width: 4.68rem;
+    line-height: 0.8rem;
+    border-bottom: 1px dashed #ccc;
+}
+section .introduction .introduction-inner .intro-content p{
+    font-size: 0.2rem;
+    display: block;
+    float: left;
+}
+section .introduction .introduction-inner img{
+    width: 100%;
+}
+section .introduction .introduction-inner .intro-content span{
+    font-size: 0.2rem;
+    color:#7f7f7f;
+    display: block;
+    float: right;
+    margin-left: 0.1rem;
+}
+section .introduction .introduction-inner .intro-content >p{
+    width: 5.50rem;
+    font-size: 0.18rem;
+    color:#8c8c8c;
+    padding: 0.2rem 0;
+    line-height: 0.4rem;
+}
+section .introduction .introduction-inner .intro-content img{
+    width: 100%;
+}
+section .booking .booking-inner{
+    width: 5.70rem;
+    margin:0 auto;
+}
+section .booking .booking-inner span{
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    font-size: 0.22rem;
+}
+section .booking .booking-inner>div{
+    margin-top:0.2rem;
+}
+section .booking .booking-inner>div p{
+    font-size: 0.22rem;
+    line-height: 0.3rem;
+}
+section .leader .leader-inner{
+    width: 5.8rem;
+    margin:0 auto;
+}
+section .leader .leader-inner h3{
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+    border-bottom: 1px dashed #ccc;
+    display: block;
+    width: 100%;
+    background-image: url(../images/next.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+}
+section .leader .leader-inner .main-down{
+    font-size: 0.18rem;
+    color:#8f8f8f;
+}
+section .leader .leader-inner .main-down img{
+    float: left;
+    width: 0.99rem;
+    display: block;
+    padding-top: 0.1rem;
+}
+section .leader .leader-inner .main-down p{
+    width: 4.4rem;
+    float: right;
+    padding-top: 0.4rem;
+}
+section .comments .pingjia{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+section .comments .pingjia .pingjia-inner{
+    width: 5.7rem;
+    margin:0 auto;
+}
+section .comments .pingjia span{
+    font-size: 0.2rem;
+    float: left;
+    display: block;
+    padding-bottom: 0.1rem;
+}
+section .comments .pingjia span:first-child{
+    width: 2.4rem;
+    background-image: url(../images/wuxing_07.jpg);
+    -webkit-background-size: 0.6rem;
+    background-size: 0.6rem;
+    background-repeat: no-repeat;
+    background-position: 1rem 0.09rem;
+}
+section .comments .pingjia span:nth-child(2){
+    width: 1.7rem;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    padding: 0;
+}
+section .comments .pingjia span:last-child{
+    width: 1.4rem;
+    text-align: center;
+}
+section .comments .comments-inner{
+    width: 5.7rem;
+    margin:0 auto;
+    font-size: 0.2rem;
+}
+section .comments .comments-inner .title{
+    border-bottom: 1px dashed #ccc;
+    font-size: 0.19rem;
+    line-height: 0.88rem;
+}
+section .comments .comments-inner .title img{
+    float: left;
+    width: 0.56rem;
+    display: block;
+    padding-top: 0.15rem;
+}
+section .comments .comments-inner .title p{
+    float: left;
+    display: block;
+    width: 1.1rem;
+    padding-left: 0.1rem;
+    line-height: 0.88rem;
+}
+section .comments .comments-inner .title span{
+    float: left;
+    display: block;
+    width: 2.4rem;
+    background-image: url(../images/wuxing_07.jpg);
+    background-repeat: no-repeat;
+    background-position: 1.1rem center;
+    -webkit-background-size: 0.6rem;
+    background-size: 0.6rem;
+    padding-left: 0.2rem;
+}
+section .comments .comments-inner p{
+    color:#707070;
+    line-height: 0.4rem;
+}
+section .comments .comments-inner .yi{
+    padding-top: 0.1rem;
+}
+section .comments .comments-inner p:nth-child(5){
+    padding-bottom: 0.1rem;
+}
+section .comments .comments-inner .comm-img{
+    width: 100%;
+}
+section .comments .comments-inner .comm-img img{
+    float: left;
+    display: block;
+    padding-bottom: 0.1rem;
+}
+section .comments .comments-inner .comm-img >img:nth-child(2){
+    padding-left: 0.1rem;
+}
+section .comments .comments-inner:last-child p{
+    padding:0.1rem 0;
+}
+section .comments .kefu{
+    width: 100%;
+    background-color: #f4f4f4;
+    margin: 0.1rem 0 0 0;
+}
+section .comments .kefu .kefu-inner{
+    width: 5.7rem;
+    margin:0 auto;
+    font-size: 0.18rem;
+    padding: 0.2rem 0;
+}
+section .comments .kefu span{
+    color:#ea581b;
+}
+section .comments .kefu p{
+    display: block;
+    width: 4rem;
+    padding-left: 1.5rem;
+}
+footer{
+    width: 100%;
+    font-size: 0.28rem;
+}
+footer .foot-left{
+    float: left;
+    width: 3.2rem;
+    font-size: 0.2rem;
+}
+footer .foot-left a{
+    display: block;
+    width: 1.60rem;
+    text-align: center;
+    padding-top: 0.56rem;
+    background-image: url(../images/heart.png);
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    color:#a3a3a3;
+}
+footer .foot-left a:last-child{
+    background-image: url(../images/phone.png);
+}
+footer .foot-right{
+    float: left;
+}
+footer .foot-right a{
+    display: block;
+    width: 3.2rem;
+    color:#fff;
+    background-color: #50bbdb;
+    line-height: 0.98rem;
+    text-align: center;
+}

@@ -1,0 +1,182 @@
+header{
+    width: 100%;
+}
+header .top{
+    width: 100%;
+    background-color: #50bbdb;
+}
+header .top .top-inner{
+    width: 6.04rem;
+    margin:0 auto;
+}
+header .top .top-inner a{
+    display: block;
+    background-image: url(../images/previous.png);
+    background-size: 100%;
+    height: 0.53rem;
+    width: 0.53rem;
+    background-repeat: no-repeat;
+    margin-top: 0.20rem;
+    float: left;
+}
+header .top .top-inner >span{
+    line-height: 0.88rem;
+    font-size: 0.28rem;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 4.8rem;
+    color:#fff;
+}
+section{
+    width: 100%;
+    background-color: #ededed;
+}
+section h1{
+    font-size: 0.24rem;
+    width: 100%;
+    line-height: 0.4rem;
+    text-indent: 0.2rem;
+    padding:0.1rem 0;
+    background-color: #fff;
+}
+section .section-inner{
+    width: 6.04rem;
+    margin:0 auto;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    border-top: 1px solid #ccc;
+    margin-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+section .section-inner:last-child{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.2rem;
+}
+section .section-inner .section-concent,section .section-inner .section-insurance,section .section-inner .section-tourists{
+    width: 5.62em;
+    margin:0 auto;
+}
+section .section-inner .section-concent h2,section .section-inner .section-insurance h2,section .section-inner .section-tourists h2{
+    margin-top: 0.2rem;
+    font-size: 0.24rem;
+    border-left: 2px solid #50bbdb;
+    padding-left: 0.16rem;
+}
+section .section-inner .section-concent  .information,section .section-inner .section-insurance  .information,section .section-inner .section-tourists .information{
+    width: 5.3rem;
+    margin:0 auto;
+    padding-top: 0.1rem;
+}
+section .section-inner .section-concent .information p,section .section-inner .section-insurance  .information p,section .section-inner .section-tourists .information .information-tour p{
+    font-size: 0.20rem;
+    line-height: 0.44rem;
+}
+section .section-inner .section-insurance  .information:last-child{
+    border-top: 1px solid #ccc;
+    margin-top: 0.1rem;
+}
+section .section-inner .section-insurance  .information p{
+    float: left;
+    width: 3.3rem;
+}
+section .section-inner .section-cost  .information p{
+    float: left;
+    width: 2.2rem;
+}
+section .section-inner .section-cost  .information .insurance-costs{
+    float: right;
+    width: 2rem;
+}
+section .section-inner .section-cost  .information .insurance-costs p{
+    font-size: 0.20rem;
+    line-height: 0.44rem;
+}
+section .section-inner .section-insurance  .information .in-up span{
+    float: right;
+    display: block;
+    font-size: 0.2rem;
+    line-height: 0.44rem;
+}
+section .section-inner .section-insurance  .information .in-down span{
+    float: right;
+    display: block;
+    font-size: 0.2rem;
+    line-height: 0.44rem;
+}
+section .section-inner .section-insurance  .information .in-down span em{
+    color:#f98d0d;
+}
+section .section-inner .section-insurance  .information .in-up,section .section-inner .section-insurance  .information .in-down{
+    background-image: url(../images/duihao.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+    padding-left: 0.36rem;
+}
+section .section-inner .section-tourists .information .information-tour{
+    border-bottom:1px solid #ccc;
+    padding-top: 0.1rem;
+}
+section .section-inner .section-tourists  h2{
+    width: 1.54rem;
+    float: left;
+}
+section .section-inner .section-tourists .changyong{
+    width: 1.54rem;
+    margin-top: 0.2rem;
+    float:right;
+    display: block;
+    color:#50bbdb;
+    font-size: 0.2rem;
+}
+section .section-inner .section-tourists .information .information-tour p{
+    display: block;
+    background-image: url(../images/bluewode.png);
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 0.35rem;
+}
+section .section-inner .section-tourists >a{
+    background-image: url(../images/jiahao.png);
+    display: block;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 0.4rem;
+    margin-top: 0.1rem;
+}
+footer{
+    width: 100%;
+    background-color: #ededed;
+    padding-top: 0.3rem;
+}
+footer .foot-inner{
+    background-color: #fff;
+    margin-top: 0.2rem;
+    padding-top: 0.1rem;
+}
+footer .group-stage{
+    width: 2.7rem;
+    float: left;
+    font-size: 0.24rem;
+    margin-left: 0.3rem;
+    line-height: 0.66rem;
+    color:#f29436;
+}
+footer a{
+    display: block;
+    font-size: 0.28rem;
+    width: 2.23rem;
+    line-height: 0.66rem;
+    background-color: #50bbdb;
+    color:#fff;
+    float: right;
+    text-align: center;
+    border-radius: 0.06rem;
+    margin-right: 0.3rem;
+}

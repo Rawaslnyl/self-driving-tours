@@ -1,0 +1,65 @@
+header{
+    width: 100%;
+}
+header .top .top-inner a:last-child{
+    background-image: none;
+    line-height: 0.88rem;
+    font-size: 0.20rem;
+    color:#fff;
+    margin-top: 0;
+}
+section{
+    width: 100%;
+}
+section span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+section span em{
+    color:#50bbdb;
+}
+section .section-inner{
+    width: 5.74rem;
+    margin:0 auto;
+}
+section .section-inner p{
+    font-size: 0.24rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.66rem;
+    background-image: url(../images/write.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+    padding-left: 0.4rem;
+
+}
+section .section-inner input{
+    float: right;
+    margin-top: 0.3rem;
+    width: 0.3rem;
+}
+section .kong{
+    padding-top: 4.8rem;
+}
+footer{
+    width: 100%;
+}
+footer a{
+    display: block;
+    width: 100%;
+    background-color: #50bbdb;
+    color:#fff;
+    text-align: center;
+    background-image: url(../images/basejia.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 0.4rem;
+    background-size: 0.4rem;
+    line-height: 0.88rem;
+    font-size: 0.20rem;
+    background-position: 2rem center;
+}

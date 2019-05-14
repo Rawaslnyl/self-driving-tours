@@ -1,0 +1,72 @@
+header .top .top-inner a:first-child{
+    background-image: url(../images/previous.png);
+}
+header .top .top-inner a:last-child{
+    background-image: none;
+    line-height: 0.88rem;
+    font-size: 0.20rem;
+    color:#fff;
+    margin-top: 0;
+}
+section{
+    width: 100%;
+}
+section >span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height: 0.75rem;
+    border-bottom: 1px solid #ccc;
+    color:#50bbdb;
+    background-image: url(../images/bl-duih.png);
+    background-repeat: no-repeat;
+    background-position: 2.3rem center;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+}
+section .section-inner{
+    width: 5.7rem;
+    margin:0 auto;
+    font-size: 0.22rem;
+    line-height: 0.45rem;
+    border-bottom: 1px dashed #ccc;
+    margin-top: 0.1rem;
+}
+section .section-inner .section-content p{
+    width: 1.2rem;
+    float: left;
+    display: block;
+}
+section .section-inner .section-content span{
+    display: block;
+    float: right;
+}
+section .section-inner:last-child{
+    border:0px;
+    padding-bottom: 0.2rem;
+}
+footer{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+footer .foot-inner{
+    width: 5.46rem;
+    margin:0 auto;
+    padding-bottom: 0.98rem;
+}
+footer .foot-inner p{
+    font-size: 0.22rem;
+    padding: 0.58rem 0 0.5rem 0;
+    line-height: 0.4rem;
+}
+footer .foot-inner a{
+    display: block;
+    font-size: 0.32rem;
+    color:#50bbdb;
+    border-radius: 0.06rem;
+    border:2px solid #e5e5e5;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.1rem 0;
+}

@@ -1,0 +1,27 @@
+section{
+    width: 100%;
+}
+section .section-inner{
+    width: 5.48rem;
+    margin:0 auto;
+}
+section .section-inner .main-up{
+    padding-top: 0.23rem;
+}
+section .section-inner .main-up img{
+    float: left;
+    width: 1.45rem;
+}
+section .section-inner .main-up p{
+    display: block;
+    width: 4.03rem;
+    float: right;
+    line-height: 1.47rem;
+    font-size: 0.28rem;
+    text-align: center;
+}
+section .section-inner .main-mid p{
+    font-size: 0.2rem;
+    line-height: 0.34rem;
+    padding-top: 0.3rem;
+}

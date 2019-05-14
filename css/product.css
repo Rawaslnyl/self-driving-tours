@@ -1,0 +1,148 @@
+header .top .top-inner a{
+    background-image: url(../images/order-sanjiao_03.png);
+}
+header .top .top-inner a:first-child{
+    -webkit-background-size: 0.23rem 0.43rem;
+    background-size: 0.23rem 0.43rem;
+}
+header .top .top-inner a:last-child{
+    background-image: url(../images/shenglue.png);
+}
+section{
+    width: 100%;
+    background-color: #f1f1f1;
+}
+section .section-content{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 0.18rem;
+}
+section .section-content .main-left{
+    width: 1.8rem;
+    float: left;
+    position: relative;
+    height: 1.67rem;
+    overflow: hidden;
+}
+section .section-content .main-left img{
+    width: 100%;
+}
+section .section-content .main-left p{
+    font-size: 0.2rem;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    color:#fff;
+    background-color: #fff;
+    background:rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+section .section-content .main-right{
+    width: 4.4rem;
+    float: right;
+    font-size: 0.24rem;
+}
+section .section-content .main-right h2{
+    line-height: 0.42rem;
+}
+section .section-content .main-right h2 a{
+    float: left;
+    color:#000;
+}
+section .section-content .main-right h2 a:hover{
+    color:#ccc;
+}
+section .section-content .main-right h2 p{
+    width: 0.92rem;
+    float: right;
+    line-height: 0.42rem;
+}
+section .section-content .main-right p{
+    color:#4e4e4e;
+}
+section .section-content .main-right> span{
+    font-size: 0.2rem;
+    display: block;
+    color:#999;
+    margin-top: 0.03rem;
+    line-height: 0.42rem;
+}
+section .section-content .main-right div{
+    width: 4.02rem;
+    background-image: url(../images/bluewode.png);
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+    background-repeat: no-repeat;
+    padding-left: 0.36rem;
+    padding-top: 0.2rem;
+    background-position: left 0.2rem;
+}
+section .section-content .main-right div em{
+    font-size: 0.18rem;
+    color:#666;
+}
+section .section-content:first-child .main-right div em{
+    color:#000;
+}
+section .section-content .main-right div span{
+    font-size: 0.22rem;
+    color:#eb612c;
+    padding-right: 0.02rem;
+    float: right;
+}
+footer{
+    width: 100%;
+    padding-top: 1.58rem;
+}
+footer .footer-inner{
+    margin:0 auto;
+    font-size: 0.2rem;
+    position:relative;
+}
+footer .footer-inner>div{
+    display: table;
+    width: 100%;
+    margin:0 auto;
+    position:fixed;
+    bottom:0;
+    background-color: #fff;
+    z-index: 10;
+}
+footer .footer-inner ul{
+    display: table-row;
+
+}
+footer .footer-inner ul li{
+    float: left;
+    display: table-cell;
+    width: 1.14rem;
+/*    padding-top: 0.3rem;*/
+    padding:0.3rem 0.2rem 0 0.2rem;
+}
+footer .footer-inner ul li a{
+    display: block;
+    line-height: 0.98rem;
+    text-align: center;
+    color:#9d9d9d;
+    background-image: url(../images/chengshi.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 0.5rem 0.5rem;
+    padding-top: 0.3rem;
+    background-position: center top;
+}
+footer .footer-inner ul li:first-child a{
+    color:#5cc0dd;
+}
+footer .footer-inner ul li:nth-child(2) a{
+    background-image: url(../images/rili.png);
+}
+footer .footer-inner ul li:nth-child(3) a{
+    background-image: url(../images/shijian.png);
+}
+
+footer .footer-inner ul li:nth-child(4) a{
+    background-image: url(../images/paixu.png);
+}
+
+

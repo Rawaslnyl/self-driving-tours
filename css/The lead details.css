@@ -1,0 +1,113 @@
+section{
+    width: 100%;
+}
+section .section-inner{
+    width: 5.48rem;
+    margin:0 auto;
+}
+section .introduce{
+    width: 100%;
+    background-color: #ededed;
+}
+section .introduce a{
+    display: block;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.78rem;
+    color:#333333;
+}
+section .section-inner .main-up{
+    padding-top: 0.23rem;
+}
+section .section-inner .main-up img{
+    float: left;
+    width: 1.45rem;
+}
+section .section-inner .main-up p{
+    display: block;
+    width: 4.03rem;
+    float: right;
+    line-height: 1.47rem;
+    font-size: 0.28rem;
+    text-align: center;
+}
+section .section-inner .main-mid p{
+    font-size: 0.2rem;
+    line-height: 0.34rem;
+    padding-top: 0.3rem;
+}
+footer{
+    width: 100%;
+}
+footer .introduce{
+    width: 100%;
+    background-color: #ededed;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.78rem;
+    margin-top: 0.2rem;
+}
+footer .footer-inner{
+    width: 100%;
+    color:#fff;
+}
+footer .footer-inner .footer-content{
+    width: 100%;
+    position:relative;
+    margin:2% 0;
+    overflow: hidden;
+}
+footer .footer-inner .footer-content:first-child{
+    margin-top:0;
+}
+footer .footer-inner .footer-content:last-child{
+    margin:0;
+}
+footer .footer-inner .footer-content img{
+    display: block;
+    width: 100%;
+
+}
+footer .footer-inner .footer-content .place,footer .footer-inner .footer-content .line{
+    /*background:rgba(71, 123, 153, 0.23);*/
+    background:rgba(0, 0, 0, 0.23);
+    font-weight: lighter;
+    width: 100%;
+    padding-left: 0.2rem;
+}
+footer .footer-inner .footer-content .place{
+    font-size: 0.24rem;
+    position:absolute;
+    width: 100%;
+    top:0;
+}
+footer .footer-inner .footer-content .line{
+    font-size: 0.2rem;
+    position:absolute;
+    bottom: 0;
+}
+footer .footer-inner .footer-content .price{
+    position:absolute;
+    width: 1.08rem;
+    line-height: 1.08rem;
+    z-index: 6;
+    background-color: #ec6f27;
+    border:6px solid #fff;
+    border-radius: 50%;
+    bottom:-26%;
+    right:1%;
+    font-size: 0.2rem;
+    text-align: center;
+}
+footer .loading{
+    width: 100%;
+}
+footer .loading a{
+    display: block;
+    width: 100%;
+    font-size: 0.2rem;
+    text-align: center;
+    background-color: #f1f1f1;
+    color:#666;
+    line-height: 0.68rem;
+}

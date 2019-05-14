@@ -1,0 +1,110 @@
+section{
+    width: 100%;
+}
+section .main-up{
+    width: 100%;
+    background-color: #ededed;
+    font-size: 0.28rem;
+    text-align: center;
+    background-image: url(../images/next.png);
+    background-repeat: no-repeat;
+    background-position: 4.32rem center;
+    -webkit-background-size: 0.32rem;
+    background-size: 0.32rem;
+    line-height: 0.78px;
+    padding: 0.4rem 0;
+}
+section .main-mid{
+    width: 100%;
+}
+section .main-mid img{
+    width: 100%;
+}
+section .main-mid .people{
+    width: 1.88rem;
+    margin-left: 0.62rem;
+    float: left;
+}
+section .main-mid .people .tanhao{
+    background-image: url(../images/tanhao.png);
+    background-repeat: no-repeat;
+    background-position: 0.65rem center;
+    -webkit-background-size: 0.32rem;
+    background-size: 0.32rem;
+}
+section .main-mid .people p{
+    font-size: 0.24rem;
+    float: left;
+}
+section .main-mid .people span{
+    font-size: 0.24rem;
+    color:#f0851a;
+    float: right;
+}
+section .main-mid .people .amount{
+    font-size: 0.24rem;
+    border:1px solid #50bbdb;
+    border-radius: 0.06rem;
+    margin-top:0.15rem;
+}
+section .main-mid .people .amount a{
+    display: block;
+    line-height: 0.48rem;
+    height: 0.48rem;
+    width: 0.57rem;
+    float: left;
+    text-align: center;
+    color:#50bbdb;
+}
+section .main-mid .people .amount input{
+    width: 0.72rem;
+    background-color: #50bbdb;
+    color:#fff;
+    outline: none;
+    height: 0.48rem;
+    border:0;
+    text-align: center;
+    float: left;
+}
+section .main-down{
+    width: 100%;
+    text-align: center;
+    font-size: 0.18rem;
+    background-image: url(../images/tanhao.png);
+    background-repeat: no-repeat;
+    -webkit-background-size:0.32rem ;
+    background-size:0.32rem ;
+    line-height: 0.62rem;
+    color:#828282;
+    background-position: 0.6rem center;
+    border-top: 1px solid #ccc;
+    margin-top: 0.16rem;
+}
+footer{
+    width: 100%;
+    background-color: #ededed;
+    padding-top: 0.3rem;
+}
+footer .foot-inner{
+    background-color: #fff;
+    margin-top: 0.2rem;
+    padding-top: 0.1rem;
+}
+footer .group-stage{
+    width: 2.7rem;
+    float: left;
+    font-size: 0.24rem;
+    margin-left: 0.3rem;
+}
+footer a{
+    display: block;
+    font-size: 0.28rem;
+    width: 2.23rem;
+    line-height: 0.66rem;
+    background-color: #50bbdb;
+    color:#fff;
+    float: right;
+    text-align: center;
+    border-radius: 0.06rem;
+    margin-right: 0.3rem;
+}

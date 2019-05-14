@@ -1,0 +1,86 @@
+header .top .top-inner a:first-child{
+    background-image: url(../images/previous.png);
+}
+section{
+    width: 100%;
+    background-color: #ebebeb;
+}
+section >span{
+    display: block;
+    padding-left: 0.3rem;
+    font-size: 0.24rem;
+    line-height: 0.75rem;
+    color:#f29846;
+    background-color: #fff;
+}
+section .pay{
+    width: 100%;
+    background-color: #fff;
+    margin-top:0.1rem;
+}
+section .pay-inner{
+    width: 5.67rem;
+    margin:0 auto;
+    line-height: 1rem;
+}
+section .pay p{
+    font-size: 0.28rem;
+    border-bottom: 1px solid #ccc;
+    background-image: url(../images/hifubao.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+    padding-left: 0.4rem;
+}
+section .pay p:nth-child(2){
+    background-image: url(../images/weixin.png);
+}
+section .pay p:last-child{
+    background-image: url(../images/yinhang.png);
+    border:0;
+}
+section .pay-inner input{
+    float: right;
+    margin-top: 0.4rem;
+    width: 0.3rem;
+}
+section .kong{
+    background-color: #f6f6f6;
+    padding-top: 2.88rem;
+}
+footer{
+    width: 100%;
+}
+footer .foot-inner{
+    width: 6.04rem;
+    margin:0 auto;
+}
+footer .foot-up{
+    float: left;
+    line-height: 0.36rem;
+    padding-top: 0.1rem;
+}
+footer .foot-up{
+    font-size: 0.2rem;
+}
+footer .foot-up span{
+    color:#f0851a;
+}
+footer .foot-up span em{
+    font-size: 0.22rem;
+}
+footer .foot-down{
+    float: right;
+    font-size: 0.3rem;
+
+}
+footer .foot-down a{
+    display: block;
+    width: 1.88rem;
+    color:#fff;
+    background-color: #50bbdb;
+    line-height: 0.65rem;
+    margin:0.18rem 0;
+    text-align: center;
+}

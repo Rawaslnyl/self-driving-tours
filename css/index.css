@@ -1,0 +1,267 @@
+.wrap{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+header .top{
+    width: 100%;/*6.4rem 设计稿/100*/
+    background-color: #50bbdb;
+    height: 0.88rem;
+}
+header .top-inner{
+    width: 6.2rem;
+    margin:0 auto;
+}
+header .top .top-inner .location{
+    width: 1.7rem;
+    float: left;
+    padding-top: 0.08rem;
+
+}
+header .top .top-inner .location a{
+    display: block;
+    background-image: url(../images/location.png);
+    background-repeat: no-repeat;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-position: left center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+}
+header .top .top-inner .location p{
+    font-size: 0.18rem;
+    float: left;
+    line-height: 0.72rem;
+    color:#fff;
+    padding:2px;
+}
+header  nav{
+    width: 3.32rem;
+    font-size: 0.26rem;
+    float: left;
+    padding-top: 0.28rem;
+    padding-left: 0.10rem;
+}
+header  nav ul{
+    border-radius: 6px;
+}
+header  nav ul li a{
+    display: block;
+    width: 1.66rem;
+    text-align: center;
+    color:#fff;
+    float: left;
+}
+header  nav ul li:first-child a{
+    color:#50bbdb;
+    background-color: #fff;
+    border-radius: 6px  0  0 6px;
+}
+header  nav ul li:last-child a{
+    border-radius:0 6px  6px 0;
+    border:#addfee;
+}
+header .camera {
+    width: 0.9rem;
+    float: left;
+    padding-top: 0.08rem;
+    padding-left: 0.06rem;
+}
+header .camera a{
+    display: block;
+    background-image: url(../images/cam.png);
+    background-repeat: no-repeat;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-position: left center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+/*    border: 1px solid #fff;
+    border-radius: 50%;*/
+    float: right;
+}
+header .banner {
+    width: 100%;
+    position:relative;
+}
+header .banner> div{
+    position:absolute;
+    height: 0.5rem;
+    top:-28%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+header .banner> div input{
+    outline:none;
+    width: 3.8rem;
+    margin-top: 1rem;
+    line-height: 0.46rem;
+    border:1px solid #50bbdb;
+    background: rgb(0, 0, 0,0.0);
+    border-radius: 6px;
+}
+header .banner>  a{
+    background-image: url(../images/fdj.png);
+    width: 0.4rem;
+    height: 0.4rem;
+    position:absolute;
+    top:16%;
+    left:74%;
+    transform: translate(-50%, -50%);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+header .banner img{
+    width: 100%;
+    display: block;
+}
+section{
+    width: 100%;
+}
+section .section-inner{
+    width: 6.2rem;
+    margin:0 auto;
+}
+section .section-inner .main-up{
+    line-height: 1.28rem;
+    width: 4.76rem;
+    margin:0 auto;
+    font-size: 0.28rem;
+    padding: 0.32rem 0;
+}
+section .section-inner .main-up span{
+    color:#d7d7d7;
+    display: block;
+    border-radius: 50%;
+    width: 1.28rem;
+    text-align: center;
+    float: left;
+    border:1px solid #d7d7d7;
+}
+section .section-inner .main-up span:first-child{
+    color:#50bbdb;
+    border:1px solid #50bbdb;
+}
+section .section-inner .main-up span:nth-child(2){
+    margin:0 0.3rem;
+}
+section .section-inner .main-mid{
+    width: 100%;
+    color:#fff;
+}
+section .section-inner .main-mid .main-mid-content{
+    width: 100%;
+    position:relative;
+    margin:2% 0;
+    overflow: hidden;
+}
+section .section-inner .main-mid .main-mid-content:last-child{
+    margin:0;
+}
+section .section-inner .main-mid .main-mid-content img{
+    display: block;
+    width: 100%;
+
+}
+section .section-inner .main-mid .main-mid-content .place,section .section-inner .main-mid .main-mid-content .line{
+    /*background:rgba(71, 123, 153, 0.23);*/
+    background:rgba(0, 0, 0, 0.23);
+    font-weight: lighter;
+    width: 100%;
+    padding-left: 0.2rem;
+}
+section .section-inner .main-mid .main-mid-content .place{
+    font-size: 0.24rem;
+    position:absolute;
+    width: 100%;
+    top:0;
+}
+section .section-inner .main-mid .main-mid-content .line{
+    font-size: 0.2rem;
+    position:absolute;
+    bottom: 0;
+}
+section .section-inner .main-mid .main-mid-content .price{
+    position:absolute;
+    width: 1.08rem;
+    line-height: 1.08rem;
+    z-index: 6;
+    background-color: #ec6f27;
+    border:6px solid #fff;
+    border-radius: 50%;
+    bottom:-26%;
+    right:1%;
+    font-size: 0.2rem;
+    text-align: center;
+}
+section .main-right{
+    width: 100%;
+}
+section  .main-right a{
+    display: block;
+    width: 100%;
+    font-size: 0.2rem;
+    text-align: center;
+    background-color: #f1f1f1;
+    color:#666;
+    line-height: 0.68rem;
+}
+footer{
+    width: 100%;
+    padding-top: 1.58rem;
+}
+footer .footer-inner{
+    margin:0 auto;
+    font-size: 0.2rem;
+    position:relative;
+}
+footer .footer-inner>div{
+    display: table;
+    width: 100%;
+    margin:0 auto;
+    position:fixed;
+    bottom:0;
+    background-color: #fff;
+    z-index: 10;
+}
+footer .footer-inner ul{
+    display: table-row;
+
+}
+footer .footer-inner ul li{
+    float: left;
+    display: table-cell;
+    width: 1.14rem;
+    padding: 0.1rem 0.2rem 0 0.2rem;
+}
+footer .footer-inner ul li a{
+    display: block;
+    line-height: 0.6rem;
+    text-align: center;
+    color:#9d9d9d;
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 0.5rem 0.5rem;
+    padding-top: 0.3rem;
+    background-position: center top;
+}
+footer .footer-inner ul li:first-child a{
+    color:#5cc0dd;
+}
+footer .footer-inner ul li:nth-child(2) a{
+    background-image: url(../images/paper-plane.png);
+}
+footer .footer-inner ul li:nth-child(3) a{
+    background-image: url(../images/map.png);
+}
+
+footer .footer-inner ul li:nth-child(4) a{
+    background-image: url(../images/wode.png);
+}
+
+
